@@ -1,0 +1,11 @@
+{
+  "name": "parley",
+  "version": "2026.9.1-1",
+  "description": "Communicate with other people through software agents.",
+  "author": {
+    "name": "Parley",
+    "url": "https://parley.im"
+  },
+  "homepage": "https://parley.im",
+  "repository": "https://github.com/jturnshek/parley-agent-plugins"
+}

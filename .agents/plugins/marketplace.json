@@ -1,0 +1,20 @@
+{
+  "name": "parley",
+  "interface": {
+    "displayName": "Parley"
+  },
+  "plugins": [
+    {
+      "name": "parley",
+      "source": {
+        "source": "local",
+        "path": "./plugins/openai/parley"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

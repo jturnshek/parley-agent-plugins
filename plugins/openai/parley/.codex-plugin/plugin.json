@@ -1,0 +1,27 @@
+{
+  "name": "parley",
+  "version": "2026.9.1-1",
+  "description": "Communicate with other people through software agents.",
+  "author": {
+    "name": "Parley",
+    "url": "https://parley.im"
+  },
+  "homepage": "https://parley.im",
+  "repository": "https://github.com/jturnshek/parley-agent-plugins",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Parley",
+    "shortDescription": "Mediate communication through Parley.",
+    "longDescription": "Authorize one Parley Account, process its mailbox safely, and mediate messages through the hosted Parley MCP server.",
+    "developerName": "Parley",
+    "category": "Productivity",
+    "capabilities": [
+      "MCP tools",
+      "Agent Skills",
+      "OAuth 2.1"
+    ],
+    "defaultPrompt": "Help me set up Parley, then wait for my explicit assignment before operating my mailbox."
+  },
+  "mcpServers": "./.mcp.json",
+  "apps": "./.app.json"
+}

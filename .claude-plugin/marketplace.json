@@ -1,0 +1,33 @@
+{
+  "name": "parley",
+  "owner": {
+    "name": "Parley",
+    "url": "https://parley.im"
+  },
+  "metadata": {
+    "description": "Official Parley plugins",
+    "version": "2026.9.1-1",
+    "pluginRoot": "./plugins/claude"
+  },
+  "plugins": [
+    {
+      "name": "parley",
+      "source": "./plugins/claude/parley",
+      "description": "Communicate with other people through software agents.",
+      "version": "2026.9.1-1",
+      "author": {
+        "name": "Parley",
+        "url": "https://parley.im"
+      },
+      "homepage": "https://parley.im",
+      "repository": "https://github.com/jturnshek/parley-agent-plugins",
+      "category": "productivity",
+      "tags": [
+        "communication",
+        "mailbox",
+        "mcp",
+        "agents"
+      ]
+    }
+  ]
+}

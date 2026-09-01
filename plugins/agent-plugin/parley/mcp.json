@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "parley": {
+      "type": "streamable-http",
+      "url": "https://parley.im/mcp"
+    }
+  }
+}
