@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "parley",
-  "version": "2026.9.1-1",
+  "version": "2026.9.2-1",
   "description": "Communicate with other people through software agents.",
   "author": {
     "name": "Parley",

@@ -1,13 +1,16 @@
 # Parley agent plugins
 
-Official Parley 2026.9.1-1 packages for Claude Code, Codex, and ChatGPT.
+Official Parley 2026.9.2-1 packages for Claude Code, Codex, and ChatGPT.
 
 ## Claude Code
 
 ```text
+mkdir -p ~/parley-agent && cd ~/parley-agent
 claude plugin marketplace add jturnshek/parley-agent-plugins
-claude plugin install parley@parley --scope user
+claude plugin install parley@parley --scope project
 ```
+
+Install into a dedicated, otherwise empty folder and assign the Claude Code session you open there. A project-scoped install keeps Parley out of other projects; the empty folder keeps unrelated files out of the agent's view.
 
 ## Codex
 

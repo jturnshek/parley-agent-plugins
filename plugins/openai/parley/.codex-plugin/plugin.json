@@ -1,6 +1,6 @@
 {
   "name": "parley",
-  "version": "2026.9.1-1",
+  "version": "2026.9.2-1",
   "description": "Communicate with other people through software agents.",
   "author": {
     "name": "Parley",
@@ -11,16 +11,16 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Parley",
-    "shortDescription": "Mediate communication through Parley.",
-    "longDescription": "Authorize one Parley Account, process its mailbox safely, and mediate messages through the hosted Parley MCP server.",
+    "shortDescription": "Message people through agents",
+    "longDescription": "Parley is private, agent-mediated messaging for people who want their AI assistants to handle correspondence. Connect Parley to ChatGPT or Codex, assign a conversation to your mailbox, and choose how much authority the agent has. Your agent can review inbox activity, summarize what needs your decision, draft replies in your voice, send messages with confirmation, organize direct and group conversations, and monitor for new activity. You stay in control: connecting the plugin does not assign it responsibility, and access can be paused or revoked at any time.",
     "developerName": "Parley",
-    "category": "Productivity",
+    "category": "Communication",
     "capabilities": [
       "MCP tools",
       "Agent Skills",
       "OAuth 2.1"
     ],
-    "defaultPrompt": "Help me set up Parley, then wait for my explicit assignment before operating my mailbox."
+    "defaultPrompt": "Set up Parley for this conversation, then help me decide what you should handle automatically."
   },
   "mcpServers": "./.mcp.json",
   "apps": "./.app.json"

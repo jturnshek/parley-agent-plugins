@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Official Parley plugins",
-    "version": "2026.9.1-1",
+    "version": "2026.9.2-1",
     "pluginRoot": "./plugins/claude"
   },
   "plugins": [
@@ -14,7 +14,7 @@
       "name": "parley",
       "source": "./plugins/claude/parley",
       "description": "Communicate with other people through software agents.",
-      "version": "2026.9.1-1",
+      "version": "2026.9.2-1",
       "author": {
         "name": "Parley",
         "url": "https://parley.im"
