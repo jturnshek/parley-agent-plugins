@@ -1,6 +1,6 @@
 # Parley agent plugins
 
-Official Parley 2026.9.2-2 packages for Claude Code, Codex, and ChatGPT.
+Official Parley 2026.9.2-3 packages for Claude Code, Codex, and ChatGPT.
 
 ## Claude Code
 
